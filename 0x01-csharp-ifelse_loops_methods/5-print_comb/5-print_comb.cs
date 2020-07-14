@@ -21,7 +21,7 @@ namespace _5_print_comb
                     Console.Write("{0}{1}{2}", j, i, k);
                 }
                 else
-                    Console.Write(i);
+                    Console.Write(" " + i + "\n");
             }
         }
     }
