@@ -12,9 +12,9 @@ namespace _5_print_comb
             for (i = 0; i < 100 ; i++)
             {
                 
-                if (i <= 9)
+                if (i >= 9)
                     k = ",";
-                if (i <= 10)
+                if (i >= 10)
                     j = ' ';
                 if (i != 99)
                 {
