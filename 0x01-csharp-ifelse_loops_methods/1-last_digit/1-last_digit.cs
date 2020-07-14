@@ -14,7 +14,7 @@ class Program
         {
             Console.WriteLine("Last digit of " + number + " is " + number % 10 + " and is 0");
         }
-        else if (number < 6)
+        else if (number % 10 < 6)
         {
             Console.WriteLine("Last digit of " + number + " is " + number % 10 + " and is less than 6 and not 0");
         }
