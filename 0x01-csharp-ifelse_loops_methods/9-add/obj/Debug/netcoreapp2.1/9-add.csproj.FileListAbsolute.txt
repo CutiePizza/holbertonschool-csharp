@@ -1,0 +1,11 @@
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/bin/Debug/netcoreapp2.1/9-add.deps.json
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/bin/Debug/netcoreapp2.1/9-add.runtimeconfig.json
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/bin/Debug/netcoreapp2.1/9-add.runtimeconfig.dev.json
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/bin/Debug/netcoreapp2.1/9-add.dll
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/bin/Debug/netcoreapp2.1/9-add.pdb
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.csprojAssemblyReference.cache
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.csproj.CoreCompileInputs.cache
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.AssemblyInfoInputs.cache
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.AssemblyInfo.cs
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.dll
+/home/ines/Documents/Github/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/9-add/obj/Debug/netcoreapp2.1/9-add.pdb
