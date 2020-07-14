@@ -15,3 +15,4 @@ These projects were carried out within Holberton school with the aim of learning
 # Projects name and their description
 
 - **0x00. C# - Hello, World :** Introduction to C#
+- **0x01. C# - if/else, loops, functions :** if/else, loops, functions
