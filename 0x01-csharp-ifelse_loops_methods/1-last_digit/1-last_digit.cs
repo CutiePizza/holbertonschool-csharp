@@ -12,11 +12,11 @@ class Program
         }
         else if (number % 10 == 0)
         {
-            Console.WriteLine("The Last digit of {0} is {1} and is zero", number, number % 10);
+            Console.WriteLine("The last digit of {0} is {1} and is 0", number, number % 10);
         }
-        else if (number % 10 < 6)
+        else if (number % 10 < 6 && number % 10 != 0)
         {
-            Console.WriteLine("The Last digit of {0} is {1} and is less than 6 and not 0", number, number % 10);
+            Console.WriteLine("The last digit of {0} is {1} and is less than 6 and not 0", number, number % 10);
         }
     }
 }
