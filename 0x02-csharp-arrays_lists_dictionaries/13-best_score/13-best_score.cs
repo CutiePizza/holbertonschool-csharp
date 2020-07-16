@@ -4,8 +4,10 @@ using System.Collections.Generic;
     {
         public static string BestScore(Dictionary<string, int> myList)
         {
+            if (myList.Count == 0)
+                return ("None");
             int score = 0;
-            string ok = "None";
+            string ok = String.Empty;
             foreach (KeyValuePair<string, int> entry in myList)
             {   
                 if (entry.Value > score)
