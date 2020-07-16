@@ -9,13 +9,12 @@ using System.Collections.Generic;
                 Console.WriteLine("Index is out of range");
                 return (myList);
             }
-            for (int i = 0; i < myList.Count; i++)
+            int i;
+            for (i = index; i < myList.Count - 1; i++)
             {
-                if (i == index)
-                {
-                    myList.Remove(myList[i]);
-                }
+                myList[i] = myList[i + 1];
             }
+            myList.RemoveRange(myList.Count - 1, 1);
             return(myList);
         }
     }
