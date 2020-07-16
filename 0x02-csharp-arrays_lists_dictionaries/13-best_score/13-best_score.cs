@@ -6,7 +6,7 @@ using System.Collections.Generic;
         {
             if (myList.Count == 0)
                 return ("None");
-            int score = 0;
+            int score = int.MinValue;;
             string ok = "";
             foreach (KeyValuePair<string, int> entry in myList)
             {   
