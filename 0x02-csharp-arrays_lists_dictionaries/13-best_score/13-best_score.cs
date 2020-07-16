@@ -4,7 +4,7 @@ using System.Collections.Generic;
     {
         public static string BestScore(Dictionary<string, int> myList)
         {
-            if (myList.Count - 1 == 0)
+            if (myList.Count == 0)
                 return ("None");
             int score = int.MinValue;;
             string ok = "";
