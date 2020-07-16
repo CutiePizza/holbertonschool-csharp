@@ -5,9 +5,7 @@ using System.Collections.Generic;
         public static string BestScore(Dictionary<string, int> myList)
         {
             int score = 0;
-            string ok = string.Empty;
-            if (myList.Count > 0)
-            {
+            string ok = "None";
             foreach (KeyValuePair<string, int> entry in myList)
             {   
                 if (entry.Value > score)
@@ -17,7 +15,5 @@ using System.Collections.Generic;
                 }
             }
             return (ok);
-            }
-            return ("None");
         }
     }
