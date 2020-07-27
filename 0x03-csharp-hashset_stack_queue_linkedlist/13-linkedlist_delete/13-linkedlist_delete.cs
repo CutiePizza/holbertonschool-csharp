@@ -6,14 +6,26 @@ using System.Collections.Generic;
         {
             LinkedListNode<int> node = myLList.First;
             int i = 0;
-            while(myLList.Count > i && node.Next != null)
+            if (index == 0)
             {
-                if (i == index)
+                myLList.RemoveFirst();
+            }
+            else if (index == myLList.Count - 1)
+            {
+                myLList.RemoveLast();
+            }
+            else
+            {
+                while(myLList.Count > i && node.Next != null)
                 {
-                    myLList.Remove(node);
+                    if (i == index)
+                    {
+                        myLList.Remove(node);
+                        break;
+                    }
+                    node = node.Next;
+                    i++;
                 }
-                node = node.Next;
-                i++;
             }
 
         }
