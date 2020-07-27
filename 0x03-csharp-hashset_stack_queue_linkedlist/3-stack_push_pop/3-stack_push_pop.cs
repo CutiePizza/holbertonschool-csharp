@@ -12,7 +12,7 @@ using System.Linq;
                 Console.WriteLine($"Top item: {aStack.Peek()}");
            if (aStack.Contains(search))
            {
-                Console.WriteLine($"Stack contains {search}: True");
+                Console.WriteLine($"Stack contains \"{search}\": True");
                 int i = 0;
                 while (i < aStack.Count)
                 {
