@@ -14,19 +14,8 @@ class MyQueue
 		if (aQueue.Contains(search))
 		{
 			Console.WriteLine($"Queue contains \"{search}\": True");
-			int i = 0;
-			while (i < aQueue.Count)
-			{
-				if (aQueue.ElementAt(i) == search)
-					break;
-				i++;
-			}
-			int j = 0;
-			while (j <= i)
-			{
+			while (aQueue.Contains(search))
 				aQueue.Dequeue();
-				j++;
-			}
 		}
 		else
 			Console.WriteLine($"Queue contains \"{search}\": False");
