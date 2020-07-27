@@ -28,7 +28,7 @@ using System.Linq;
                 }
            }
            else
-                Console.WriteLine($"Stack contains {search}: False");
+                Console.WriteLine($"Stack contains \"{search}\": False");
             aStack.Push(newItem);
            return (aStack);
        }
