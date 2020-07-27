@@ -14,12 +14,18 @@ using System.Linq;
            {
                 Console.WriteLine($"Stack contains {search}: True");
                 int i = 0;
-                while (i < aStack.Count && aStack.ElementAt(i) != search)
+                while (i < aStack.Count)
                 {
-                    aStack.Pop();
+                    if (aStack.ElementAt(i) == search)
+                        break;
                     i++;
                 }
-                aStack.Pop();
+                int j = 0;
+                while (j <= i)
+                {
+                    aStack.Pop();
+                    j++;
+                }
            }
            else
                 Console.WriteLine($"Stack contains {search}: False");
