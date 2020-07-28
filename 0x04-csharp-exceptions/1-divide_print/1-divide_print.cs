@@ -10,7 +10,7 @@
                 res = a / b;
             }
             catch (DivideByZeroException) {
-                
+                Console.WriteLine("Cannot divide by zero");
         }
         finally {
             Console.WriteLine($"{a} / {b} = {res}");
