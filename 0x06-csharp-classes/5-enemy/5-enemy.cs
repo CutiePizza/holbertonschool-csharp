@@ -43,7 +43,7 @@ namespace Enemies
         /// <summary>
         /// Override ToString Method
         /// </summary>
-        /// <returns>Zombie name: <name> / Total Health: <health></returns>
+        /// <returns>Zombie name: name / Total Health: health</returns>
         public override string ToString()
         {
             return ($"Zombie Name: {this.name} / Total Health: {this.health}");
