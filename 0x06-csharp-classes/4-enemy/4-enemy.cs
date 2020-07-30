@@ -10,12 +10,15 @@ namespace Enemies
         // Health of a zombie
         private int health;
         // Name of a Zombie
-        private string name;
+        private string name = "(No name)";
         /// <summary>
         /// Property Name
         /// </summary>
         /// <value>get or set a Name</value>
-        public string Name {get; set;} = "(No name)";
+        public string Name {
+            get => this.name;
+            set => this.name = value;
+            }
         /// <summary> Initializes a new instance of a Zombie </summary> ///
         public Zombie()
         {
