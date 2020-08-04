@@ -2,7 +2,7 @@ using NUnit.Framework;
 using MyMath;
 using System;
 
-namespace Tests
+namespace MyMath.Tests
 {
     [TestFixture]
     public class Tests
