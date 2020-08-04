@@ -15,6 +15,8 @@ namespace MyMath
         /// <returns>A new matrix</returns>
         public static int[,] Divide(int[,] matrix, int num)
         {
+           if (matrix == null)
+                return (null);
            int[,] newMat = new int[matrix.GetLength(0),matrix.GetLength(1)];
            try 
             {
@@ -29,10 +31,6 @@ namespace MyMath
             } catch (DivideByZeroException) 
             {
                 Console.WriteLine("Num cannot be 0");
-                return (null);
-            }
-            catch (ArgumentNullException)
-            {
                 return (null);
             }
         }

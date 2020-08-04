@@ -54,10 +54,10 @@ namespace MyMath.Tests
         }
    
         [Test]
-        [TestCase(null, 5)]
-        public void NullMatrix(int[,] m, int num)
+        public void NullMatrix()
         {
-            Assert.Throws<ArgumentNullException>(() => throw new ArgumentNullException());
+            int[,] newMat = Matrix.Divide(null, 8);
+            Assert.AreEqual(null, newMat);
         }
 
         [Test]
