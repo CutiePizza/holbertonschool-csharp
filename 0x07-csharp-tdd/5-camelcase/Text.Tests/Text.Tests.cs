@@ -47,5 +47,21 @@ namespace Text.Tests
             int n = Str.CamelCase(s);
             Assert.AreEqual(0, n);
         }
+
+        [Test]
+        public void Test6()
+        {
+            string s = "hi";
+            int n = Str.CamelCase(s);
+            Assert.AreEqual(1, n);
+        }
+
+        [Test]
+        public void Test7()
+        {
+            string s = "hi You";
+            int n = Str.CamelCase(s);
+            Assert.AreEqual(2, n);
+        }
     }
 }
