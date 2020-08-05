@@ -45,7 +45,7 @@ namespace Text.Tests
         {
             string s = "";
             int n = Str.CamelCase(s);
-            Assert.AreEqual(0, n);
+            Assert.AreEqual(1, n);
         }
 
         [Test]

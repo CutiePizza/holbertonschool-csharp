@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary>
+            class str
+            </summary>
+        </member>
+        <member name="M:Text.Str.CamelCase(System.String)">
+            <summary>
+            Camel Case task
+            </summary>
+            <param name="s"></param>
+            <returns>How many words</returns>
+        </member>
+    </members>
+</doc>

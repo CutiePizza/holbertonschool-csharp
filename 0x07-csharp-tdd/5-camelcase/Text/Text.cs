@@ -14,7 +14,7 @@ namespace Text
         /// <returns>How many words</returns>
         public static int CamelCase(string s)
         {
-           int j = 0;
+           int j = 1;
            int k = 0;
            int i = 0;
            while (k != s.Length && i != s.Length)
@@ -29,10 +29,7 @@ namespace Text
                     }
                 }
            }
-           if (j == 0)
-            return (j);
-           else
-            return (j + 1); 
+            return (j); 
         }
     }
 }
