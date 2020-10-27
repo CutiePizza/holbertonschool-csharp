@@ -1,0 +1,11 @@
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\bin\Debug\netcoreapp2.1\2-dequeue.deps.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\bin\Debug\netcoreapp2.1\2-dequeue.runtimeconfig.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\bin\Debug\netcoreapp2.1\2-dequeue.runtimeconfig.dev.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\bin\Debug\netcoreapp2.1\2-dequeue.dll
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\bin\Debug\netcoreapp2.1\2-dequeue.pdb
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.csprojAssemblyReference.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.csproj.CoreCompileInputs.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.AssemblyInfoInputs.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.AssemblyInfo.cs
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.dll
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\2-dequeue\obj\Debug\netcoreapp2.1\2-dequeue.pdb
