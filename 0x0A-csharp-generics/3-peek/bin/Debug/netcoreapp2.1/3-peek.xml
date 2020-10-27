@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-peek</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            QUeue Class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Queue`1.head">
+            <summary>
+            head setter/getter
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Queue`1.tail">
+            <summary>
+            tail getter/setter
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            Check Type of a queue
+            </summary>
+            <returns>Type of a Queue</returns>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary>
+            Enqueue
+            </summary>
+            <param name="value">value to put</param>
+        </member>
+        <member name="M:Queue`1.Dequeue">
+            <summary>
+            Dequeue a queueu
+            </summary>
+            <returns>Value of node deleted</returns>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary>
+            Count
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Queue`1.Peek">
+            <summary>
+            Peek first value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary>
+            Class Node
+            </summary>
+        </member>
+        <member name="P:Queue`1.Node.Value">
+            <summary>
+            Value property
+            </summary>
+            <value>value</value>
+        </member>
+        <member name="P:Queue`1.Node.Next">
+            <summary>
+            Next property
+            </summary>
+            <value>value</value>
+        </member>
+        <member name="M:Queue`1.Node.#ctor(`0)">
+            <summary>
+            Node constructor
+            </summary>
+            <param name="value">Value</param>
+        </member>
+    </members>
+</doc>
