@@ -4,10 +4,6 @@
 /// </summary>
 abstract class Base
 {
-    /// <summary>
-    /// Property name
-    /// </summary>
-    /// <value>String value</value>
     public string name {
         get;
         set;
