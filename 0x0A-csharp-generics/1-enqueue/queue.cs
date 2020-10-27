@@ -44,27 +44,20 @@ class Queue<T>
         if (this.tail == null)
         {
             this.head = this.tail = newNode;
+            count += 1;
         }
         else
         {
             this.tail.Next = newNode;
             this.tail = newNode;
+            count += 1;
         }
 
     }
 
     public int Count()
     {
-        Node p = this.head;
-        int i = 0;
-        if (p == null)
-            return 0;
-        while (p != null)
-        {
-            p = p.Next;
-            i++;
-        }
-        return i;
+        return this.count;
     }
 
     /// <summary>
