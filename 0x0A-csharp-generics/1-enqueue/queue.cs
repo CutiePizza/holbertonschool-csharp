@@ -10,6 +10,23 @@ class Queue<T>
     Node tail = null;
     int count;
 
+    /// <summary>
+    /// head setter/getter
+    /// </summary>
+    /// <value></value>
+    public Node head {
+        get;
+        set;
+    }
+
+    /// <summary>
+    /// tail getter/setter
+    /// </summary>
+    /// <value></value>
+    public Node tail {
+        get;
+        set;
+    }
     
     /// <summary>
     /// Check Type of a queue
@@ -43,6 +60,8 @@ class Queue<T>
     {
         Node p = this.head;
         int i = 0;
+        if (p == null)
+            return 0;
         while (p != null)
         {
             p = p.Next;
@@ -50,7 +69,6 @@ class Queue<T>
         }
         return i;
     }
-
 
     /// <summary>
     /// Class Node
@@ -60,13 +78,20 @@ class Queue<T>
         T value;
         Node next = null;
 
+        /// <summary>
+        /// Value property
+        /// </summary>
+        /// <value>value</value>
         public T Value {
             get => this.value;
             set {
                 this.value = value;
             }
         }
-
+        /// <summary>
+        /// Next property
+        /// </summary>
+        /// <value>value</value>
         public Node Next {
             get => this.next;
             set {
