@@ -61,12 +61,12 @@ class Queue<T>
     /// <returns>Value of node deleted</returns>
     public T Dequeue()
     {
+        Node p = this.head;
         if (this.head == null)
         {
             Console.WriteLine("Queue is empty");
             return (default(T));
         }
-        Node p = this.head;
         this.head = this.head.Next;
         count -= 1;
         if (this.head == null)
