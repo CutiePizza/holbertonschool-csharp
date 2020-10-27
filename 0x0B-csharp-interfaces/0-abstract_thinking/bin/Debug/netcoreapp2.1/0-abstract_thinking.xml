@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-abstract_thinking</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            Base class
+            </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary>
+            Property name
+            </summary>
+            <value>String value</value>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            Override tostring() method
+            </summary>
+            <returns>string</returns>
+        </member>
+    </members>
+</doc>
