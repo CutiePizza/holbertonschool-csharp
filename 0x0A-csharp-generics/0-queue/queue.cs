@@ -9,8 +9,8 @@ class Queue<T>
     /// Check Type of a queue
     /// </summary>
     /// <returns>Type of a Queue</returns>
-    public Type CheckType()
+    public string CheckType()
     {
-        return (this.GetType());
+        return (typeof(T).ToString());
     }
 }
