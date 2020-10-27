@@ -2,7 +2,7 @@
 /// <summary>
 /// Base class
 /// </summary>
-class Base
+abstract class Base
 {
     /// <summary>
     /// Property name
