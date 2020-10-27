@@ -5,9 +5,6 @@
 /// <typeparam name="T"></typeparam>
 class Queue<T>
 {
-
-    Node head = null;
-    Node tail = null;
     int count;
 
     /// <summary>

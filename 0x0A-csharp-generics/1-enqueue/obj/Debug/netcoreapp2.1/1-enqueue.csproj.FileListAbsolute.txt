@@ -9,3 +9,4 @@ D:\github\holbertonschool-csharp\0x0A-csharp-generics\1-enqueue\bin\Debug\netcor
 D:\github\holbertonschool-csharp\0x0A-csharp-generics\1-enqueue\bin\Debug\netcoreapp2.1\1-enqueue.pdb
 D:\github\holbertonschool-csharp\0x0A-csharp-generics\1-enqueue\obj\Debug\netcoreapp2.1\1-enqueue.dll
 D:\github\holbertonschool-csharp\0x0A-csharp-generics\1-enqueue\obj\Debug\netcoreapp2.1\1-enqueue.pdb
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\1-enqueue\bin\Debug\netcoreapp2.1\1-enqueue.xml
