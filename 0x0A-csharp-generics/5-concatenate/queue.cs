@@ -109,6 +109,10 @@ class Queue<T>
         }
     }
 
+    /// <summary>
+    /// COncatenate
+    /// </summary>
+    /// <returns>string</returns>
     public string Concatenate()
     {
         if (this.head == null)
@@ -121,7 +125,17 @@ class Queue<T>
             Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
             return (null);
         }
-        T newString;
+        Node p = this.head;
+        string newString = "";
+        while (p != null)
+        {
+            if (p.Next == null)
+                newString += p.Value;
+            else
+                newString += p.Value + " ";
+            p = p.Next;
+        }
+        return (newString);
     }
 
     /// <summary>
