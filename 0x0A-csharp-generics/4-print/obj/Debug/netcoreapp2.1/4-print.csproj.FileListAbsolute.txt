@@ -1,0 +1,12 @@
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.xml
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.deps.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.runtimeconfig.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.runtimeconfig.dev.json
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.dll
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\bin\Debug\netcoreapp2.1\4-print.pdb
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.csprojAssemblyReference.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.csproj.CoreCompileInputs.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.AssemblyInfoInputs.cache
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.AssemblyInfo.cs
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.dll
+D:\github\holbertonschool-csharp\0x0A-csharp-generics\4-print\obj\Debug\netcoreapp2.1\4-print.pdb
