@@ -18,8 +18,17 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 /// Modified behavior
 /// </summary>
 public enum Modifier {
+    /// <summary>
+/// Modified behavior
+/// </summary>
     Weak,
+    /// <summary>
+/// Modified behavior
+/// </summary>
     Base,
+    /// <summary>
+/// Modified behavior
+/// </summary>
     Strong
 }
 
