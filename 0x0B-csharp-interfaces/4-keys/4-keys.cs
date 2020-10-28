@@ -198,7 +198,7 @@ public class Key : Base, ICollectable {
         if (isCollected == false)
         {
             isCollected = true;
-            Console.WriteLine($"You pick up the {this.name}");
+            Console.WriteLine($"You pick up the {this.name}.");
         }
         else
         {
