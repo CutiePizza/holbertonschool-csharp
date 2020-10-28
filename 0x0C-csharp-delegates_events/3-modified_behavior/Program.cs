@@ -140,7 +140,7 @@ public class Player
             return (float)(baseValue / 2);
         else if (modifier == Modifier.Base)
             return (baseValue);
-        else if (modifier == Modifier.Strong)
+        else
             return (float)(baseValue * 1.5);
     }
 }
