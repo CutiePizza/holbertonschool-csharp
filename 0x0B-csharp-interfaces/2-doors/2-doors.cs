@@ -75,15 +75,12 @@ public interface ICollectable {
 public class Door : Base, IInteractive {
 
     /// <summary>
-    /// Constructor for Door
+    /// COnstructor of Door
     /// </summary>
-    /// <param name="name">Door name</param>
-    public Door(string name)
+    /// <param name="name"></param>
+    public Door(string name="Door")
     {
-        if (name == null)
-            this.name = "Door";
-        else
-            this.name = name;
+        this.name = name;
     }
 
     /// <summary>
@@ -91,7 +88,7 @@ public class Door : Base, IInteractive {
     /// </summary>
     public void Interact()
     {
-        Console.Write($"You try to open the {this.name}. It's locked.");
+        Console.WriteLine($"You try to open the {this.name}. It's locked.");
     }
 
 }

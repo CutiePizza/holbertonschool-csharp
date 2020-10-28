@@ -70,9 +70,9 @@
         </member>
         <member name="M:Door.#ctor(System.String)">
             <summary>
-            Constructor for Door
+            COnstructor of Door
             </summary>
-            <param name="name">Door name</param>
+            <param name="name"></param>
         </member>
         <member name="M:Door.Interact">
             <summary>
