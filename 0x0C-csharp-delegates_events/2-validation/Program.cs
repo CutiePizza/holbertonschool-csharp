@@ -1,4 +1,11 @@
 ﻿using System;
+
+/// <summary>
+/// Delegate
+/// </summary>
+/// <param name="amount"></param>
+public delegate void CalculateHealth(float amount);
+
 /// <summary>
 /// Player class
 /// </summary>
@@ -61,16 +68,15 @@ public class Player
     /// <param name="damage"></param>
     public void TakeDamage(float damage)
     {
-        CalculateHealth handler = ValidateHP;
         if (damage > 0)
         {
             Console.WriteLine($"{this.name} takes {damage} damage!");
-            handler(this.hp - damage);
+            ValidateHP(this.hp - damage);
         }
         else
         {
             Console.WriteLine($"{this.name} takes 0 damage!");
-            handler(damage);
+            ValidateHP(damage);
         }
     }
 
@@ -80,16 +86,15 @@ public class Player
     /// <param name="heal"></param>
     public void HealDamage(float heal)
     {
-        CalculateHealth handler = ValidateHP;
         if (heal > 0)
         {
             Console.WriteLine($"{this.name} heals {heal} HP!");
-            handler(this.hp + heal);
+            ValidateHP(this.hp + heal);
         }
         else
         {
             Console.WriteLine($"{this.name} heals 0 HP!");
-            handler(heal);
+            ValidateHP(heal);
         }
     }
 
@@ -108,9 +113,5 @@ public class Player
     }
 }
 
-/// <summary>
-/// Delegate
-/// </summary>
-/// <param name="amount"></param>
-public delegate void CalculateHealth(float amount);
+
 
