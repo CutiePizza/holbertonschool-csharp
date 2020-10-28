@@ -70,7 +70,7 @@ public class Player
         else
         {
             Console.WriteLine($"{this.name} takes 0 damage!");
-            handler(0);
+            handler(damage);
         }
     }
 
@@ -89,7 +89,7 @@ public class Player
         else
         {
             Console.WriteLine($"{this.name} heals 0 HP!");
-            handler(0);
+            handler(heal);
         }
     }
 
