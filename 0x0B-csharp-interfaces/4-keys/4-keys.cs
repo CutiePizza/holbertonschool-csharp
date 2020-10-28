@@ -184,7 +184,7 @@ public class Key : Base, ICollectable {
     /// </summary>
     /// <param name="name"></param>
     /// <param name="isCollected"></param>
-    public Key(string name="key", bool isCollected=false)
+    public Key(string name="Key", bool isCollected=false)
     {
         this.name = name;
         this.isCollected = isCollected;
