@@ -78,7 +78,7 @@ public class Player
             Console.WriteLine($"{this.name} heals {heal} HP!");
         }
         else
-            Console.WriteLine($"{this.name} takes 0 heals!");
+            Console.WriteLine($"{this.name} heals 0 HP!");
     }
 
 }
