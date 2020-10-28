@@ -79,7 +79,10 @@ public class Player
         if (heal > 0)
         {
             Console.WriteLine($"{this.name} heals {heal} HP!");
-            this.hp += heal;
+            if (heal > this.maxHp)
+                this.hp = this.maxHp;
+            else
+                this.hp += heal;
         }
         else
             Console.WriteLine($"{this.name} takes 0 heals!");
