@@ -99,14 +99,15 @@ public class Player
     /// <param name="newHp"></param>
     public void ValidateHP(float newHp)
     {
-        if (newHp > this.maxHp)
-            this.hp = this.maxHp;
-        else if (newHp < 0)
+        if (newHp < 0)
             this.hp = 0;
+        else if (newHp > this.maxHp)
+            this.hp = this.maxHp;
         else
             this.hp = newHp;
     }
 }
+
 /// <summary>
 /// Delegate
 /// </summary>
