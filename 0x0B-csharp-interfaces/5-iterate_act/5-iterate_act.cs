@@ -223,20 +223,29 @@ public static void IterateAction(List<Base> roomObjects, Type type)
 {
     foreach (var cls in roomObjects)
     {
-        if (cls is IInteractive)
+        if (type == typeof(IInteractive))
         {
-            IInteractive classou = (IInteractive)cls;
-            classou.Interact();
+            if (cls is IInteractive)
+            {
+                IInteractive classou = (IInteractive)cls;
+                classou.Interact();
+            }
         }
-        else if (cls is IBreakable)
+        else if (type == typeof(IBreakable))
         {
-            IBreakable classou = (IBreakable)cls;
-            classou.Break();
+            if (cls is IBreakable)
+            {
+                IBreakable classou = (IBreakable)cls;
+                classou.Break();
+            }
         }
-        else if (cls is ICollectable)
+        else if (type == typeof(ICollectable))
         {
-            ICollectable classou = (ICollectable)cls;
-            classou.Collect();
+            if (cls is ICollectable)
+            {
+                ICollectable classou = (ICollectable)cls;
+                classou.Collect();
+            }
         }
     }
 }
