@@ -8,7 +8,7 @@ public class Player
     /// Name of the player
     /// </summary>
     /// <value></value>
-    public string name {
+    private string name {
         get;
         set;
     }
@@ -16,7 +16,7 @@ public class Player
     /// Max Health Points of player
     /// </summary>
     /// <value></value>
-    public float maxHp {
+    private float maxHp {
         get;
         set;
     }
@@ -24,7 +24,7 @@ public class Player
     /// Actual health
     /// </summary>
     /// <value></value>
-    public float hp {
+    private float hp {
         get;
         set;
     }
