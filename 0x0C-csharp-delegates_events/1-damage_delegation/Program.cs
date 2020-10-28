@@ -62,10 +62,7 @@ public class Player
     public void TakeDamage(float damage)
     {
         if (damage > 0)
-        {
             Console.WriteLine($"{this.name} takes {damage} damage!");
-            this.hp -= damage;
-        }
         else
             Console.WriteLine($"{this.name} takes 0 damage!");
     }
@@ -79,10 +76,6 @@ public class Player
         if (heal > 0)
         {
             Console.WriteLine($"{this.name} heals {heal} HP!");
-            if (heal > this.maxHp)
-                this.hp = this.maxHp;
-            else
-                this.hp += heal;
         }
         else
             Console.WriteLine($"{this.name} takes 0 heals!");
