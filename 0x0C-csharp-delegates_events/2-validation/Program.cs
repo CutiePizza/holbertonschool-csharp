@@ -76,7 +76,6 @@ public class Player
         else
         {
             Console.WriteLine($"{this.name} takes 0 damage!");
-            ValidateHP(damage);
         }
     }
 
@@ -94,7 +93,6 @@ public class Player
         else
         {
             Console.WriteLine($"{this.name} heals 0 HP!");
-            ValidateHP(heal);
         }
     }
 
