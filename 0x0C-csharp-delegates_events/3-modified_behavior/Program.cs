@@ -15,7 +15,7 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 
 
 /// <summary>
-/// Enum Modifier
+/// Modified behavior
 /// </summary>
 public enum Modifier {
     Weak,
@@ -140,7 +140,7 @@ public class Player
             return (float)(baseValue / 2);
         else if (modifier == Modifier.Base)
             return (baseValue);
-        else
+        else if (modifier == Modifier.Strong)
             return (float)(baseValue * 1.5);
     }
 }
