@@ -13,26 +13,6 @@ public delegate void CalculateHealth(float amount);
 /// <returns></returns>
 public delegate float CalculateModifier(float baseValue, Modifier modifier);
 
-
-/// <summary>
-/// Modified behavior
-/// </summary>
-public enum Modifier {
-    /// <summary>
-/// Modified behavior
-/// </summary>
-    Weak,
-    /// <summary>
-/// Modified behavior
-/// </summary>
-    Base,
-    /// <summary>
-/// Modified behavior
-/// </summary>
-    Strong
-}
-
-
 /// <summary>
 /// Player class
 /// </summary>
@@ -155,5 +135,20 @@ public class Player
 }
 
 
-
-
+/// <summary>
+/// Modified behavior
+/// </summary>
+public enum Modifier {
+    /// <summary>
+/// Modified behavior
+/// </summary>
+    Weak,
+    /// <summary>
+/// Modified behavior
+/// </summary>
+    Base,
+    /// <summary>
+/// Modified behavior
+/// </summary>
+    Strong
+}
