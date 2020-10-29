@@ -18,20 +18,22 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 /// </summary>
 public class Player
 {
+    // Player's name
     private string name {
         get;
         set;
     }
+    // Player's MaxHp
     private float maxHp {
         get;
         set;
     }
-
+    // Player's current hp
     private float hp {
         get;
         set;
     }
-
+    // Player's status
     private string status {
         get;
         set;
