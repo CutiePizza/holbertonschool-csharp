@@ -119,7 +119,7 @@ public class Player
         {
             this.status = $"{this.name} is doing well!";
         }
-        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp / 2)
+        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp)
         {
             this.status = $"{this.name} isn't doing too great...";
         }
