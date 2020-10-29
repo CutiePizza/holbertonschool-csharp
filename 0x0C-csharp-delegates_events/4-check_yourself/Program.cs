@@ -200,7 +200,7 @@ public class CurrentHPArgs : EventArgs {
 /// CurrentHp
 /// </summary>
 /// <value></value>
-public readonly float currentHp {
+public float currentHp {
     get;
     set;
 }
