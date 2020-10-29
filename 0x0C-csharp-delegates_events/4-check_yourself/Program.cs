@@ -40,35 +40,20 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 /// </summary>
 public class Player
 {
-    /// <summary>
-    /// Name of the player
-    /// </summary>
-    /// <value></value>
     private string name {
         get;
         set;
     }
-    /// <summary>
-    /// Max Health Points of player
-    /// </summary>
-    /// <value></value>
     private float maxHp {
         get;
         set;
     }
-    /// <summary>
-    /// Actual health
-    /// </summary>
-    /// <value></value>
+
     private float hp {
         get;
         set;
     }
 
-    /// <summary>
-    /// status
-    /// </summary>
-    /// <value></value>
     private string status {
         get;
         set;
@@ -222,7 +207,7 @@ public class CurrentHPArgs : EventArgs {
     public readonly float currentHp;
 
     /// <summary>
-    ///Constructor
+    /// Constructor
     /// </summary>
     /// <param name="newHp"></param>
     public CurrentHPArgs(float newHp)
