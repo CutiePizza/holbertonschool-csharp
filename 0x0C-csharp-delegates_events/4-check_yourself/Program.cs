@@ -36,14 +36,10 @@ public class Player
         get;
         set;
     }
-
     /// <summary>
     /// Event
     /// </summary>
     public event EventHandler<CurrentHPArgs> HPCheck;
-
-
-
     /// <summary>
     /// Constructor
     /// </summary>
@@ -66,33 +62,6 @@ public class Player
         HPCheck += CheckStatus;
 
     }
-
-    
-    private void CheckStatus(object sender, CurrentHPArgs e)
-    {
-        if (e.currentHp == this.maxHp)
-        {
-            this.status = $"{this.name} is in perfect health!";
-        }
-        else if (e.currentHp >= this.maxHp / 2 && e.currentHp < this.maxHp)
-        {
-            this.status = $"{this.name} is doing well!";
-        }
-        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp)
-        {
-            this.status = $"{this.name} isn't doing too great...";
-        }
-        else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
-        {
-            this.status = $"{this.name} needs help!";
-        }
-        else if (e.currentHp <= 0)
-        {
-            this.status = $"{this.name} is knocked out!";
-        }
-        Console.WriteLine(this.status);
-    }
-
     /// <summary>
     /// Print Player's health
     /// </summary>
@@ -166,6 +135,32 @@ public class Player
         else
             return (float)(baseValue * 1.5);
     }
+
+    private void CheckStatus(object sender, CurrentHPArgs e)
+    {
+        if (e.currentHp == this.maxHp)
+        {
+            this.status = $"{this.name} is in perfect health!";
+        }
+        else if (e.currentHp >= this.maxHp / 2 && e.currentHp < this.maxHp)
+        {
+            this.status = $"{this.name} is doing well!";
+        }
+        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp)
+        {
+            this.status = $"{this.name} isn't doing too great...";
+        }
+        else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
+        {
+            this.status = $"{this.name} needs help!";
+        }
+        else if (e.currentHp <= 0)
+        {
+            this.status = $"{this.name} is knocked out!";
+        }
+        Console.WriteLine(this.status);
+    }
+
 }
 
 
@@ -177,7 +172,7 @@ public class CurrentHPArgs : EventArgs {
     /// <summary>
     /// CurrentHp
     /// </summary>
-    /// <value></value>
+    /// <value>value</value>
     public readonly float currentHp;
 
     /// <summary>
