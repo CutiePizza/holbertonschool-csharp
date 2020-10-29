@@ -1,5 +1,27 @@
 ﻿using System;
 
+
+
+
+
+/// <summary>
+/// Modified behavior
+/// </summary>
+public enum Modifier {
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Strong
+}
+
 /// <summary>
 /// Delegate
 /// </summary>
@@ -193,37 +215,19 @@ public class Player
 /// </summary>
 public class CurrentHPArgs : EventArgs {
 
-/// <summary>
-/// CurrentHp
-/// </summary>
-/// <value></value>
-public readonly float currentHp;
-
-/// <summary>
-///Constructor
-/// </summary>
-/// <param name="newHp"></param>
-public CurrentHPArgs(float newHp)
-{
-    this.currentHp = newHp;
-}
-
-}
-
-/// <summary>
-/// Modified behavior
-/// </summary>
-public enum Modifier {
     /// <summary>
-    /// Modified behavior
+    /// CurrentHp
     /// </summary>
-    Weak,
+    /// <value></value>
+    public readonly float currentHp;
+
     /// <summary>
-    /// Modified behavior
+    ///Constructor
     /// </summary>
-    Base,
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Strong
+    /// <param name="newHp"></param>
+    public CurrentHPArgs(float newHp)
+    {
+        this.currentHp = newHp;
+    }
+
 }
