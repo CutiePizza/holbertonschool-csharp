@@ -1,27 +1,5 @@
 ﻿using System;
 
-
-
-
-
-/// <summary>
-/// Modified behavior
-/// </summary>
-public enum Modifier {
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Weak,
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Base,
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Strong
-}
-
 /// <summary>
 /// Delegate
 /// </summary>
@@ -93,16 +71,26 @@ public class Player
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
         if (e.currentHp == this.maxHp)
-            status = $"{name} is in perfect health!";
-        else if (e.currentHp >= (this.maxHp * 0.5) && e.currentHp < this.maxHp)
-            status = $"{name} is doing well!";
-        else if (e.currentHp >= (this.maxHp * 0.25) && e.currentHp < this.maxHp)
-            status = $"{name} isn't doing too great...";
-        else if (e.currentHp > 0 && e.currentHp < (this.maxHp * 0.25))
-            status = $"{name} needs help!";
+        {
+            this.status = $"{this.name} is in perfect health!";
+        }
+        else if (e.currentHp >= this.maxHp / 2 && e.currentHp < this.maxHp)
+        {
+            this.status = $"{this.name} is doing well!";
+        }
+        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp)
+        {
+            this.status = $"{this.name} isn't doing too great...";
+        }
+        else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
+        {
+            this.status = $"{this.name} needs help!";
+        }
         else if (e.currentHp <= 0)
-            status = $"{name} is knocked out!";
-        Console.WriteLine(status);
+        {
+            this.status = $"{this.name} is knocked out!";
+        }
+        Console.WriteLine(this.status);
     }
 
     /// <summary>
@@ -201,4 +189,22 @@ public class CurrentHPArgs : EventArgs {
         this.currentHp = newHp;
     }
 
+}
+
+/// <summary>
+/// Modified behavior
+/// </summary>
+public enum Modifier {
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Strong
 }
