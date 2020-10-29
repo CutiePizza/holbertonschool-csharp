@@ -18,6 +18,10 @@ public delegate float CalculateModifier(float baseValue, Modifier modifier);
 /// </summary>
 public class Player
 {
+    /// <summary>
+    /// Event
+    /// </summary>
+    public event EventHandler<CurrentHPArgs> HPCheck;
     // Player's name
     private string name {
         get;
@@ -38,10 +42,6 @@ public class Player
         get;
         set;
     }
-    /// <summary>
-    /// Event
-    /// </summary>
-    public event EventHandler<CurrentHPArgs> HPCheck;
     /// <summary>
     /// Constructor
     /// </summary>
