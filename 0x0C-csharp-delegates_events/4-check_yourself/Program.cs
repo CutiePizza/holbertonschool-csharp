@@ -91,24 +91,25 @@ public class Player
     {
         if (e.currentHp == this.maxHp)
         {
-            Console.WriteLine($"{this.name} is in perfect health!");
+            this.status = $"{this.name} is in perfect health!";
         }
         else if (e.currentHp >= this.maxHp / 2 && e.currentHp < this.maxHp)
         {
-            Console.WriteLine($"{this.name} is doing well!");
+            this.status = $"{this.name} is doing well!";
         }
         else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp / 2)
         {
-            Console.WriteLine($"{this.name} isn't doing too great...");
+            this.status = $"{this.name} isn't doing too great...";
         }
         else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
         {
-            Console.WriteLine($"{this.name} needs help!");
+            this.status = $"{this.name} needs help!";
         }
         else if (e.currentHp == 0)
         {
-            Console.WriteLine($"{this.name} is knocked out!");
+            this.status = $"{this.name} is knocked out!";
         }
+        Console.WriteLine(this.status);
     }
 
     /// <summary>
