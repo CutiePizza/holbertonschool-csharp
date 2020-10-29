@@ -93,26 +93,16 @@ public class Player
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
         if (e.currentHp == this.maxHp)
-        {
-            this.status = $"{this.name} is in perfect health!";
-        }
-        else if (e.currentHp >= this.maxHp / 2 && e.currentHp < this.maxHp)
-        {
-            this.status = $"{this.name} is doing well!";
-        }
-        else if (e.currentHp >= this.maxHp / 4 && e.currentHp < this.maxHp)
-        {
-            this.status = $"{this.name} isn't doing too great...";
-        }
-        else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
-        {
-            this.status = $"{this.name} needs help!";
-        }
+            status = $"{name} is in perfect health!";
+        else if (e.currentHp >= (this.maxHp * 0.5) && e.currentHp < this.maxHp)
+            status = $"{name} is doing well!";
+        else if (e.currentHp >= (this.maxHp * 0.25) && e.currentHp < this.maxHp)
+            status = $"{name} isn't doing too great...";
+        else if (e.currentHp > 0 && e.currentHp < (this.maxHp * 0.25))
+            status = $"{name} needs help!";
         else if (e.currentHp <= 0)
-        {
-            this.status = $"{this.name} is knocked out!";
-        }
-        Console.WriteLine(this.status);
+            status = $"{name} is knocked out!";
+        Console.WriteLine(status);
     }
 
     /// <summary>
