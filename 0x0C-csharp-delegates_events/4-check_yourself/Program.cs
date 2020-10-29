@@ -77,11 +77,7 @@ public class Player
         this.name = name;
         this.hp = this.maxHp;
         if (status == "none")
-        {
             this.status = $"{this.name} is ready to go!";
-        }
-        else
-            this.status = status;
         HPCheck += CheckStatus;
 
     }
@@ -200,10 +196,7 @@ public class CurrentHPArgs : EventArgs {
 /// CurrentHp
 /// </summary>
 /// <value></value>
-public float currentHp {
-    get;
-    set;
-}
+public readonly float currentHp;
 
 /// <summary>
 ///Constructor
