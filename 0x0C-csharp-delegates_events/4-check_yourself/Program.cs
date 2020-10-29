@@ -112,7 +112,7 @@ public class Player
         {
             this.status = $"{this.name} needs help!";
         }
-        else if (e.currentHp == 0)
+        else if (e.currentHp <= 0)
         {
             this.status = $"{this.name} is knocked out!";
         }
