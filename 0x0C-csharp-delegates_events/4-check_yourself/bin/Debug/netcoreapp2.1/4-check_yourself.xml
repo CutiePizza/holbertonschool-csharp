@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-check_yourself</name>
+    </assembly>
+    <members>
+        <member name="T:Modifier">
+            <summary>
+            Modified behavior
+            </summary>
+        </member>
+        <member name="F:Modifier.Weak">
+            <summary>
+            Modified behavior
+            </summary>
+        </member>
+        <member name="F:Modifier.Base">
+            <summary>
+            Modified behavior
+            </summary>
+        </member>
+        <member name="F:Modifier.Strong">
+            <summary>
+            Modified behavior
+            </summary>
+        </member>
+        <member name="T:CalculateHealth">
+            <summary>
+            Delegate
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="T:CalculateModifier">
+            <summary>
+            Calculate Modifier
+            </summary>
+            <param name="baseValue"></param>
+            <param name="modifier"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Player">
+            <summary>
+            Player class
+            </summary>
+        </member>
+        <member name="E:Player.HPCheck">
+            <summary>
+            Event
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name"></param>
+            <param name="maxHp"></param>
+            <param name="status"></param>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>
+            Print Player's health
+            </summary>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>
+            TakeDamage method
+            </summary>
+            <param name="damage"></param>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>
+            HealDamage method
+            </summary>
+            <param name="heal"></param>
+        </member>
+        <member name="M:Player.ValidateHP(System.Single)">
+            <summary>
+            Sets the new Hp
+            </summary>
+            <param name="newHp"></param>
+        </member>
+        <member name="M:Player.ApplyModifier(System.Single,Modifier)">
+            <summary>
+            Apply modifier
+            </summary>
+            <param name="baseValue"></param>
+            <param name="modifier"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CurrentHPArgs">
+            <summary>
+            Class CurrentHPArgs
+            </summary>
+        </member>
+        <member name="F:CurrentHPArgs.currentHp">
+            <summary>
+            CurrentHp
+            </summary>
+            <value>value</value>
+        </member>
+        <member name="M:CurrentHPArgs.#ctor(System.Single)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="newHp"></param>
+        </member>
+    </members>
+</doc>

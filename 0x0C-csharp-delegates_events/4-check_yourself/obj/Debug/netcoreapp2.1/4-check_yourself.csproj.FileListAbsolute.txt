@@ -1,0 +1,12 @@
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.csprojAssemblyReference.cache
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.csproj.CoreCompileInputs.cache
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.AssemblyInfoInputs.cache
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.AssemblyInfo.cs
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.xml
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.deps.json
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.runtimeconfig.json
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.runtimeconfig.dev.json
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.dll
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\bin\Debug\netcoreapp2.1\4-check_yourself.pdb
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.dll
+D:\github\holbertonschool-csharp\0x0C-csharp-delegates_events\4-check_yourself\obj\Debug\netcoreapp2.1\4-check_yourself.pdb

@@ -1,6 +1,23 @@
 ﻿using System;
 
 /// <summary>
+/// Modified behavior
+/// </summary>
+public enum Modifier {
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Weak,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Base,
+    /// <summary>
+    /// Modified behavior
+    /// </summary>
+    Strong
+}
+/// <summary>
 /// Delegate
 /// </summary>
 /// <param name="amount"></param>
@@ -118,8 +135,8 @@ public class Player
             this.hp = this.maxHp;
         else
             this.hp = newHp;
-        //CurrentHPArgs myHp = new CurrentHPArgs(this.hp);
-        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
+        CurrentHPArgs myHp = new CurrentHPArgs(this.hp);
+        CheckStatus(HPCheck, myHp);
     }
 
     /// <summary>
@@ -186,22 +203,4 @@ public class CurrentHPArgs : EventArgs {
         this.currentHp = newHp;
     }
 
-}
-
-/// <summary>
-/// Modified behavior
-/// </summary>
-public enum Modifier {
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Weak,
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Base,
-    /// <summary>
-    /// Modified behavior
-    /// </summary>
-    Strong
 }
