@@ -89,11 +89,7 @@ public class Player
 
     }
 
-    /// <summary>
-    /// Check status
-    /// </summary>
-    /// <param name="sender"></param>
-    /// <param name="e"></param>
+    
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
         if (e.currentHp == this.maxHp)
